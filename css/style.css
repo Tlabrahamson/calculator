@@ -1,0 +1,113 @@
+#head{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #427148;
+    font-size: 30px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#cBody{
+    width: 300px;
+    height: 500px;
+    border: solid 2px #000;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: #4f4b4a;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#buttonDiv{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: center;
+}
+
+#display{
+    margin-top: 30px;
+    border: solid 2px #000;
+    padding: 0px 5px 0px 5px;
+    height: 50px;
+    width: 250px;
+    text-align: right;
+    background: #b4b08b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    box-shadow: .5px .5px .5px;
+}
+
+p{
+    overflow: hidden;
+}
+
+button{
+    background: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    opacity: 1;
+    transition: .3s;
+    box-shadow: 1px 1px 1px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #000;
+}
+
+#zeroButt:active{
+    background-color: #000;
+}
+
+button:hover{opacity: .5}
+
+.regButt{
+    align-self: center;
+    background-color: #C5CCD1;
+    border: solid 1px #000;
+    width: 65px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator{
+    background-color: #800000;
+    border: solid 1px #000;
+    width: 65px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 1px 1px 1px #000;
+    align-items: center;
+}
+
+#zeroButt{
+    background-color: #C5CCD1;
+    border: solid 1px #000;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Roboto', sans-serif;
+}

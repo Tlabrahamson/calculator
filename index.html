@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel='icon' href='imgs/favicon.ico' type='image/x-icon'/>
+    <title>Calculator</title>
+
+</head>
+<body>
+
+    <div>
+        <h1 id="head">Calculator</h1>
+    </div>
+    
+    <!-- Container div -->
+    <div id="container">
+        <!-- Calculator body -->
+        <div id="cBody">
+            <!-- Input div -->
+            <div id="display">
+                <p></p>
+            </div>
+            <!-- Button div -->
+            <div id="buttonDiv">
+                <button class="regButt" onclick="addToMem()">M</button>
+                <button class="regButt" onclick="memRecall()">MR</button>
+                <button class="regButt" onclick="clearValues()">C</button>
+                <button class="operator" onclick="operation()">/</button>
+                <button class="regButt" onclick="getValue()">7</button>
+                <button class="regButt" onclick="getValue()">8</button>
+                <button class="regButt" onclick="getValue()">9</button>
+                <button class="operator" onclick="operation()">*</button>
+                <button class="regButt" onclick="getValue()">4</button>
+                <button class="regButt" onclick="getValue()">5</button>
+                <button class="regButt" onclick="getValue()">6</button>
+                <button class="operator" onclick="operation()">+</button>
+                <button class="regButt" onclick="getValue()">1</button>
+                <button class="regButt" onclick="getValue()">2</button>
+                <button class="regButt" onclick="getValue()">3</button>
+                <button class="operator" onclick="operation()">-</button>
+                <button id="zeroButt" onclick="getValue()">0</button>
+                <button class="regButt" onclick="deci()">.</button>
+                <button class="operator" onclick="equal()">=</button>
+            </div>
+            <!-- Footer div -->
+            <div id="footer">
+                <h2>Simple Calculator</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
